@@ -1,0 +1,75 @@
+.bestsellers {
+    @include section_top;
+    padding: 80px 0;
+    &__title{
+        margin-bottom: 20px;
+    }
+
+    &-card {
+        border: 1px solid #E8E9EA;
+        margin-top: 16px;
+        &-img{
+            width: 100%;
+            object-fit: cover;
+        }
+        
+
+        &__text {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            margin-bottom: 12px;
+            min-height: 72px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;  
+        }
+
+        &__link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            color: #171B24;
+            width: 100%;
+            display: inline-block;
+            padding: 12px;
+            background: #FCEC41;
+            text-align: center;
+            bottom: 0px;
+        }
+
+        &__top {
+            
+            background: #FFFFFF;
+            
+        }
+
+        &__bottom {
+            padding: 16px;
+            width: 278px;
+            height: 208px;
+            background: #FFFFFF;
+            
+        }
+
+        &__price {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            /* identical to box height, or 28px */
+
+
+            /* Text/171B24 */
+
+            color: #171B24;
+            margin-bottom: 16px;
+            
+        }
+    }
+
+}

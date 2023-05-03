@@ -1,0 +1,17 @@
+@mixin section_top {
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 34px;
+        line-height: 130%;
+    }
+
+    &__btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 136%;
+        border: 1px solid #070713;
+        padding: 12px 24px;
+    }
+}

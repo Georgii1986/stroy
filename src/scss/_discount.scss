@@ -1,0 +1,124 @@
+.discount {
+    @include section_top;
+    padding: 80px 0;
+    
+
+    &-card {
+        border: 1px solid #E8E9EA;
+        margin-bottom: 16px;
+
+        &__left {
+            position: relative;
+        }
+
+        &__img {
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        &__oldprice {
+            color: #88898d;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            text-decoration: line-through;
+        }
+
+        &__link {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            color: #171B24;
+            width: 100%;
+            display: inline-block;
+            padding: 12px;
+            background: #FCEC41;
+            text-align: center;
+            
+        }
+        &__right{
+            border-left: 1px solid #000;
+            
+        }
+    }
+
+    &-card {
+        &__amount {
+            position: absolute;
+            width: 55px;
+            height: 30px;
+            left: 16px;
+            top: 16px;
+            border: 2px solid #FBE303;
+            padding: 5px;
+            background-color: #f6f8fa;
+        }
+    }
+
+    &-card__right {
+        background: #FFFFFF;
+        /* BG/E8E9EA */
+
+        border-left: 1px solid #0f1113;
+        width: 294px;
+        height: 208px;
+
+        /* BG/FFFFFF */
+
+        background: #FFFFFF;
+        /* BG/E8E9EA */
+
+        border-left: 1px solid #E8E9EA;
+
+        &__text {
+            display: -webkit-box;
+            padding: 16px;
+            margin-bottom: 12px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            /* or 24px */
+            max-height: 72px;
+            min-height: 72px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical; 
+            /* Text/2F323A */
+
+            color: #2F323A;
+            text-overflow: ellipsis;
+            white-space: pre-wrap;
+        }
+    }
+
+
+
+    &-card__price {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 140%;
+        /* identical to box height, or 28px */
+
+
+        /* Text/171B24 */
+
+        color: #171B24;
+
+
+
+    }
+
+
+
+    &__right {
+        padding: 16px;
+    }
+
+}

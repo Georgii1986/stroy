@@ -1,0 +1,140 @@
+.overlay {
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    .popup-close-btn {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        top: 33px;
+        right: 33px;
+        cursor: pointer;
+        background: #db2626;
+
+        &::before {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #ffffff;
+            top: 50%;
+            transform: translateY(-50%) rotate(45deg);
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 2px;
+            background: #ffffff;
+            top: 50%;
+            transform: translateY(-50%) rotate(-45deg);
+        }
+
+    }
+
+    .login-popup {
+        display: none;
+        position: absolute;
+        max-width: 375px;
+        width: 100%;
+        min-height: 490px;
+        background: #d8d5d5;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 36px;
+        gap: 24px;
+
+        &__text {
+            width: 304px;
+            height: 48px;
+            background: #F6F6F6;
+            /* BG/D1D1D3 */
+
+            border-bottom: 1px solid #D1D1D3;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            /* or 24px */
+
+
+            /* Text/8B8D92 */
+
+            color: #8B8D92;
+        }
+
+        &__pass {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            /* or 24px */
+
+
+            /* Text/8B8D92 */
+
+            color: #8B8D92;
+            width: 304px;
+            height: 48px;
+            background: #F6F6F6;
+            /* BG/D1D1D3 */
+
+            border-bottom: 1px solid #D1D1D3;
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            /* identical to box height, or 24px */
+
+            display: flex;
+            align-items: center;
+
+            /* Text/2F323A */
+
+            color: #2F323A;
+        }
+
+
+        &__btn {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 34px;
+            line-height: 130%;
+            /* or 44px */
+
+            // display: flex;
+            // align-items: center;
+            text-align: center;
+
+            /* Text/2F323A */
+
+            color: #2F323A;
+        }
+    }
+
+    .reg-popup {
+        position: absolute;
+        max-width: 572px;
+        width: 100%;
+        min-height: 396px;
+        background: #d8d5d5;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+}

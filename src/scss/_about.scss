@@ -1,0 +1,38 @@
+.about {
+    .container{
+        padding: 50px;
+    }
+    &-content{
+        width: 690px;
+        // padding: 88px 198px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+   
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    width: 100%;
+    height: 456px;
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    /* Text/2F323A */
+
+    color: #2F323A;
+    background: url(../img/about/about_bg.png) center/cover no-repeat;
+
+}
+
+.contaner-content {
+    width: 670px;
+    padding: 152px 492px 88px 198px;
+
+   
+
+}

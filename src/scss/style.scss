@@ -1,0 +1,30 @@
+@import '../fonts/Manrope/stylesheet.css';
+@import '../libs/aw/all.min.css';
+
+@import '../libs/bts/bootstrap-grid.min.css';
+@import '../libs/owl/owl.carousel.min.css';
+@import '../libs/owl/owl.theme.default.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif ;
+}
+a, a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style-type: none;
+}
+@import './variables.scss';
+@import './header.scss';
+@import './home.scss';
+@import './discount.scss';
+@import './category.scss';
+@import './feedback.scss';
+@import './brands.scss';
+@import './bestsellers.scss';
+@import './about.scss';
+@import './footer.scss';
+@import './popup.scss';

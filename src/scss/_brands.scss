@@ -1,0 +1,6 @@
+.brands{
+    @include section_top;
+    &__img{
+        border: 1px solid #E8E9EA;
+    }
+}

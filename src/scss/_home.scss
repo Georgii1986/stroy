@@ -1,0 +1,108 @@
+.home {
+    padding: 40px 40px 0;
+
+    &-slide {
+        padding: 40px 100px;
+        min-height: 420px;
+        max-height: 420px;
+        position: relative;
+
+        .owl-naw {
+            position: absolute;
+            bottom: 40px;
+            right: 100px;
+            display: flex;
+            gap: 12px;
+
+            .home__prev, 
+            .home__next {
+                /* BG/FFFFFF */
+
+                background: #FFFFFF;
+                /* BG/D1D1D3 */
+
+                border: 1px solid #D1D1D3;
+                widows: 52px;
+                height: 52px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+        &__title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 120%;
+            /* or 58px */
+
+            display: flex;
+            align-items: center;
+
+            /* Text/171B24 */
+            margin-bottom: 20px;
+            color: #171B24;
+        }
+
+        &__text {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            /* or 28px */
+            width: 300px;
+            display: flex;
+            align-items: center;
+
+            /* Text/454950 */
+            min-width: 500px;
+            color: #454950;
+            margin-bottom: 100px;
+        }
+
+        &__more-btn {
+            padding: 12px 24px;
+            background: #FCEC41;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 136%;
+            /* or 24px */
+
+
+            /* Text/171B24 */
+
+            color: #171B24;
+            display: inline-block;
+            position: absolute;
+            left: 100px;
+            bottom: 40px;
+
+
+            width: 147px;
+            height: 48px;
+
+            /* Main/FDF074 */
+
+
+
+        }
+
+        &_first {
+
+            background: url(../img/home/slide\ 1.png) center/cover no-repeat;
+        }
+
+        &_second {
+            background: url(../img/home/slide\ 2.png) center/cover no-repeat;
+        }
+
+    }
+
+
+
+
+
+}
